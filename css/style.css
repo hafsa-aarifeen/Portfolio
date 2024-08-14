@@ -14,7 +14,7 @@
 :root{
 	--bg-color:#fdfdfd;
 	--text-color:#333;
-	--main-color:rgb(246, 51, 90);
+	--main-color:rgb(135, 110, 174);
 	--white-color:#fdfdfd;
 	--shadow-color:rgba(0, 0, 0, .2);
 }
@@ -341,13 +341,15 @@ span {
 	box-shadow: 0 .1rem .5rem var(--shadow-color);
 	text-align: center;
 	border-top: .6rem solid var(--main-color);
-	border-bottom: .6rem solid var(--main-color);
+	/* border-bottom: .6rem solid var(--main-color); */
+	border-right: .6rem solid var(--main-color);
+	/* border-left: .6rem solid var(--main-color); */
 	transition: .5s ease;
 }
 
 .services-container .services-box:hover {
 	box-shadow: 0 .1rem 2rem var(--shadow-color);
-	transform: scale(1.02);
+	transform: scale(1.15);
 }
 
 .services-box i {
